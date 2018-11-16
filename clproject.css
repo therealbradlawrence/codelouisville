@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    padding-top: 70px;
+}
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+  }
+h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+h3 {
+  font-size: 25px;
+  color: white;
+}
+h4 {
+    font-size: 20px;
+    color: #303030;
+}
+h5 {
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+hr {
+  width: 100%;
+  border-color: darkorange;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #212236;
+}
+.list-group {
+  margin-top: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.gavel {
+    box-shadow: 5px 5px 30px black;
+}
+.left {
+  float: left;
+}
+.container-fluid {
+    padding: 50px 50px;
+}
+.bg-grey {
+    background-color: #F7F7F7;
+}
+.navbar {
+    background-color: #212236;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    height: 75px;
+}
+.att1, .att3, .att2, .att4 {
+  box-shadow: 3px 3px 10px 1px black;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-left: 17%;
+  text-align: center;
+  margin-top: 30px;
+}
+.glyphicon.glyphicon-knight {
+  font-size: 60px;
+  margin-top: 10px;
+  color: darkblue;
+}
+.attprofile {
+  height: 500px;
+  width: 400px;
+  background-image: url('images/attprofile.jpg');
+  border-style: solid;
+  border-color: orange;
+}
+.calcfield {
+  width: 40%;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.calcbuttons {
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 3px 3px 10px 1px black;
+}
+@media screen and (max-width: 991px) {
+  .logo {
+    width: 300px;
+    height: 60px;
+}
+  .col-md-3 {
+    margin-left: 0%;
+}
+  .navbar-header {
+      float: none;
+}
+  .navbar-right {
+      float: none !important;
+}
+  .navbar-toggle {
+      display: block;
+}
+  .navbar-collapse {
+      margin-top: 14px;
+      box-shadow: 0 8px 6px -6px black;
+}
+  .navbar-collapse.collapse {
+      display: none !important;
+}
+  .navbar-nav>li {
+      float: none;
+}
+  .navbar-collapse {
+      background: #212236;
+}
+  .navbar-nav>li>a {
+      padding-top: 3px;
+      padding-bottom: 3px;
+}
+  .collapse.in {
+      display:block !important;
+}
+  .navbar-inner {
+    background: #212236;
+}
+}
